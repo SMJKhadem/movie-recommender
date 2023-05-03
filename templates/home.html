@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+    <link rel="stylesheet" href="../static/stylesheet.css">
+    <title>Welcome page</title>
+</head>
+<body>
+    <h1>Welcome to the naive recommender</h1>
+    <img id="logo-homepage" src="../static/curtain.jpg" width="500" height=“500”>
+    <p> Rate on a scale 0-5 🌟the following movie:</p>
+    <form action="/results">
+        Aavatar:<input class="input-placeholder" type="text" name="Avatar" placeholder="0-5"><br>
+        Titanic:<input class="input-placeholder" type="text" name="Titanic" placeholder="0-5"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p>Get recommendation <a href="/results"> here</a>
+    </p>
+</body>
+</html>
