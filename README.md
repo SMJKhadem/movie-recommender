@@ -1,4 +1,4 @@
-# Movie-Recommender
+# Movie-Recommender-CD-Pipeline
 In this project, I build a proof of concept: A web application that showcases different movie recommendation algorithms.
 Download a small version of the MovieLens-dataset
 Implement a baseline recommender
